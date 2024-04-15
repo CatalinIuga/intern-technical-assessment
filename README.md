@@ -68,7 +68,7 @@
 
    We also need to consider the edge cases: where the row \* column matrix is not enough to fit all the characters, I just incremented the row count in that case; and the last slice might have fewer characters than the column count, so just pick the minimum between the end index calculated and the length of the text.
 
-   Full code: [encryption.ts](encryption.ts)
+   Full code with comments: [encryption.ts](encryption.ts)
 
    ```ts
    function encrypt(text: string) {

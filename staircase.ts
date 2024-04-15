@@ -5,7 +5,9 @@
 function staircase(n: number): void {
   // loop trough each step of the staircase
   for (let step = 1; step <= n; step++) {
-    // print n-step spaces and step hashes
+    // each line has n - step spaces and step # symbols
+    // last line will have n - n (0) spaces and n # symbols
+    // NOTE: console.log automatically adds a newline character - check the golang version for a version without it
     console.log(" ".repeat(n - step) + "#".repeat(step));
   }
 }
