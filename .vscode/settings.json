@@ -1,0 +1,4 @@
+{
+  // Enable Deno support for TypeScript
+  "deno.enable": true
+}
