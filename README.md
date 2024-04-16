@@ -88,6 +88,8 @@
    }
    ```
 
+   I also included a ROT13 encryption algorithm that applies the ROT13 algorithm to each row of the matrix, then returns the encrypted values joined using `&`. You can find the full code in the [encryption.ts](encryption.ts) file.
+
 ## Notes
 
 For both questions 7 and 8, I used [Deno](https://deno.com/), a personal preference, and it's easier to get user input compared to Node.js. The code can be run using the following command:
